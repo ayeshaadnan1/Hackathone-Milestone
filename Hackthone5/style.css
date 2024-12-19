@@ -1,0 +1,106 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f8fa;
+}
+
+form {
+    margin: auto;
+    background-color: #e0f7fa;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 600px;
+    border: 1px solid #00acc1;
+}
+
+h1 {
+    text-align: center;
+    color: #7b1fa2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #e1bee7;
+    box-shadow: 0 4px 12px rgba(123, 31, 162, 0.3);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #7b1fa2;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    color: #512da8;
+    font-size: 16px;
+}
+
+input, textarea {
+    margin-top: 6px;
+    padding: 12px;
+    width: calc(100% - 2px);
+    border: 1px solid #00bcd4;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 188, 212, 0.2);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #7b1fa2;
+    box-shadow: 0 0 10px rgba(123, 31, 162, 0.6);
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #00bcd4;
+    box-shadow: 0 10px 20px rgba(0, 188, 212, 0.5);
+    transform: scale(1.05);
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    background-color: #e1bee7;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /*making the resume editable*/
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #7b1fa2;
+    font-size: 26px;
+    font-weight: bold;
+}
